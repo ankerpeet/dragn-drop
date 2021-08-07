@@ -7,7 +7,7 @@ An easy to use JavaScript drag and drop library.
 
 1. Install with NPM
    ```sh
-   npm install dragn-drop
+   npm install simple-dragn
    ```
 
 

@@ -1,6 +1,6 @@
 {
   "name": "simple-dragn",
-  "version": "1.0.0",
+  "version": "1.0.01",
   "description": "An easy to use JavaScript drag and drop library.",
   "main": "index.js",
   "scripts": {
