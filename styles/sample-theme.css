@@ -1,0 +1,53 @@
+:root {
+--blue: #3c91e6;
+--darkBlue: #0765C0;
+--black: #342e37;
+--green: #a2d729;
+--white: #fcfffc;
+}
+html, body, .container {height:100%;}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.row {
+    margin: 0;
+    height: 50%;
+}
+
+.col-xs-3 {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+}
+
+.dragn {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+    border-radius: 5px;
+}
+
+.dragn-grab {
+    height: 20px;
+    background-color: var(--green);
+    border-radius: 5px 5px 0 0 ;
+}
+
+.dragn-den {
+    min-height: 100px;
+    height: 100%;
+    border: black solid 1px;
+    background-color: var(--blue);
+    padding: 10px;
+}
+
+.dragn-den-hover {
+    background-color: var(--darkBlue);
+}

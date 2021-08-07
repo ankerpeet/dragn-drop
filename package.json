@@ -1,0 +1,17 @@
+{
+  "name": "dragn-drop",
+  "version": "1.0.0",
+  "description": "An easy to use JavaScript drag and drop library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui","drag","drop","interactive"
+  ],
+  "author": "Anker Peet",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
