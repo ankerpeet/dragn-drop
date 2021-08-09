@@ -10,9 +10,6 @@ An easy to use JavaScript drag and drop library.
    npm install simple-dragn
    ```
 
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
