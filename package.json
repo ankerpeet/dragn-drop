@@ -4,6 +4,8 @@
   "description": "An easy to use JavaScript drag and drop library.",
   "main": "index.js",
   "scripts": {
+    "build": "bundle-js ./src/index.js -o ./index.js --disable-beautify ",
+    "build-sa": "bundle-js ./src/DragnDrop.js -o ./stand-alone/dragnDrop.js --disable-beautify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
