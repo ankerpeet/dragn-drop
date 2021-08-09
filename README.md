@@ -52,7 +52,7 @@ Here is an example of how to create a basic HTML document that uses the CDN to c
     <head>
         <meta charset="utf-8" />
         <title>SimpleDragn Sample App</title>      
-        <link rel="stylesheet" href="https://unpkg.com/simple-dragn@1.0.3/stand-alone/core.css">
+        <link rel="stylesheet" href="https://unpkg.com/simple-dragn@1.0.4/stand-alone/core.css">
         <style>
             * {
                 box-sizing: border-box;
@@ -121,7 +121,7 @@ Here is an example of how to create a basic HTML document that uses the CDN to c
                 <div class="dragn-den"></div>
             </div>
         </div>
-        <script src="https://unpkg.com/simple-dragn@1.0.3/stand-alone/dragnDrop.js"></script>
+        <script src="https://unpkg.com/simple-dragn@1.0.4/stand-alone/dragnDrop.js"></script>
         <script>
             var dragnDrop = new DragnDrop();
             dragnDrop.initEvents();
