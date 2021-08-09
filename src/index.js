@@ -1,4 +1,4 @@
-import "../stand-alone/core.css";
+import "./stand-alone/core.css";
 
 // include ./DragnDrop.js
 
