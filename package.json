@@ -1,8 +1,8 @@
 {
   "name": "simple-dragn",
-  "version": "1.0.04",
+  "version": "1.0.05",
   "description": "An easy to use JavaScript drag and drop library.",
-  "main": "index.js",
+  "browser": "index.js",
   "scripts": {
     "build": "bundle-js ./src/index.js -o ./index.js --disable-beautify ",
     "build-sa": "bundle-js ./src/DragnDrop.js -o ./stand-alone/dragnDrop.js --disable-beautify",
@@ -14,6 +14,14 @@
     "drop",
     "interactive"
   ],
-  "author": "Anker Peet",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/ankerpeet/simple-dragn"
+  },
+  "homepage": "https://github.com/ankerpeet/simple-dragn#readme",
+  "bugs": {
+    "url": "https://github.com/ankerpeet/mean-chart-vue/issues"
+  },
+  "author": "Anker Peet (https://www.ankerpeet.com/)",
   "license": "MIT"
 }
